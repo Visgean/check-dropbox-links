@@ -6,5 +6,5 @@ Steps:
 2. Fetch all links json file: ``python download.py``
 3. Verify all links with ``python check.py``
 
-Optionally run revoke script ``python check.py`` that revokes all links which folder path does not contain current year. 
+Optionally run revoke script ``python revoke.py`` that revokes all links which folder path does not contain current year. 
 
