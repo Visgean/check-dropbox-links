@@ -39,4 +39,4 @@ while True:
     print(data)
 
 with open('links.json', 'w') as f:
-    f.write(json.dumps(links))
+    f.write(json.dumps(links, indent=2))
